@@ -1,0 +1,180 @@
+{
+  "@@locale": "en",
+  "@@last_modified": "2024-07-01T12:00:00Z",
+  "title": "Hello World",
+  "@title": {
+    "description": "Application title"
+  },
+  "message": "Welcome to Flutter Internationalization",
+  "@message": {
+    "description": "Message for the home page"
+  },
+  "environmentLeav": "LEAV Environments",
+  "@environmentLeav": {
+    "description": "Description of LEAV environment"
+  },
+  "monitor": "Monitor",
+  "@monitor": {
+    "description": "To monitor environmental variables"
+  },
+  "charts": "Charts",
+  "@charts": {
+    "description": "Charts"
+  },
+  "program": "Program",
+  "@program": {
+    "description": "To program environments"
+  },
+  "ppfdBlue": "Blue Intensity [PPFD]",
+  "@ppfdBlue": {
+    "description": "Blue color intensity in µmol/m²/s"
+  },
+  "ppfdWhite": "White Intensity [PPFD]",
+  "@ppfdWhite": {
+    "description": "White color intensity in µmol/m²/s"
+  },
+  "ppfdRBW": "RBW Intensity [PPFD]",
+  "@ppfdRBW": {
+    "description": "RBW color intensity in µmol/m²/s"
+  },
+  "ppfdRed": "Red Intensity [PPFD]",
+  "@ppfdRed": {
+    "description": "Red color intensity in µmol/m²/s"
+  },
+  "dimBlue": "Blue Dimming [%]",
+  "@dimBlue": {
+    "description": "Blue LED dimming in percentage"
+  },
+  "dimWhite": "White Dimming [%]",
+  "@dimWhite": {
+    "description": "White LED dimming in percentage"
+  },
+  "dimRBW": "RBW Dimming [%]",
+  "@dimRBW": {
+    "description": "RBW LED dimming in percentage"
+  },
+  "dimRed": "Red Dimming [%]",
+  "@dimRed": {
+    "description": "Red LED dimming in percentage"
+  },
+  "temperature": "Temperature",
+  "@temperature": {
+    "description": "Ambient temperature, reading made by DHT 22 sensor"
+  },
+  "humidity": "Humidity",
+  "@humidity": {
+    "description": "Ambient humidity, reading made by DHT 22 sensor"
+  },
+  "ppmCo2": "PPM CO2",
+  "@ppmCo2": {
+    "description": "Way of measuring the proportion of carbon dioxide molecules relative to all other molecules in the environment"
+  },
+  "kWh": "Energy (kWh)",
+  "@kWh": {
+    "description": "Energy measured in kWh in the protected environment"
+  },
+  "watts": "Power (W)",
+  "@watts": {
+    "description": "Power in Watts, used in the system"
+  },
+  "wifi": "WIFI Network",
+  "@wifi": {
+    "description": "Received signal strength indicator"
+  },
+  "factorPower": "Power Factor",
+  "@factorPower": {
+    "description": "Power factor of LED luminaires"
+  },
+  "waitSensor": "Sensor did not send information... Waiting",
+  "@waitSensor": {
+    "description": "Sensor did not send information... Waiting"
+  },
+  "dateTimeSearchInit": "Start Date and Time",
+  "@dateTimeSearchInit": {
+    "description": "Start date and time"
+  },
+  "dateTimeSearchEnd": "End Date and Time",
+  "@dateTimeSearchEnd": {
+    "description": "End date and time"
+  },
+  "selected": "Select",
+  "@selected": {
+    "description": "Select"
+  },
+  "synchronized": "Synchronized",
+  "@synchronized": {
+    "description": "Synchronized"
+  },
+  "synchronizing": "Synchronizing",
+  "@synchronizing": {
+    "description": "Synchronizing"
+  },
+  "off": "Off",
+  "@off": {
+    "description": "Off"
+  },
+  "on": "On",
+  "@on": {
+    "description": "On"
+  },
+  "automatic": "Automatic",
+  "@automatic": {
+    "description": "Automatic"
+  },
+  "resetKwh": "Reset the kWh",
+  "@resetKwh": {
+    "description": "Reset the kWh"
+  },
+  "programEnvironment": "Program Environment",
+  "@programEnvironment": {
+    "description": "Program Environment"
+  },
+  "gaussian": "Gaussian",
+  "@gaussian": {
+    "description": "Gaussian"
+  },
+  "constant": "Constant",
+  "@constant": {
+    "description": "Constant"
+  },
+  "mean": "Mean (μ)",
+  "@mean": {
+    "description": "Mean (μ)"
+  },
+  "sigma": "Sigma (σ)",
+  "@sigma": {
+    "description": "Sigma (σ)"
+  },
+  "maxIntensity": "Max Intensity",
+  "@maxIntensity": {
+    "description": "Max Intensity"
+  },
+  "minIntensity": "Min Intensity",
+  "@minIntensity": {
+    "description": "Min Intensity"
+  },
+  "start": "Start",
+  "@start": {
+    "description": "Start"
+  },
+  "end": "End",
+  "@end": {
+    "description": "End"
+  },
+  "dailyLightIntegral": "Daily Light Integral (DLI)",
+  "@dailyLightIntegral": {
+    "description": "Daily Light Integral (DLI)"
+  },
+  "constantEquivalentIntensity": "Constant Equivalent Intensity (CEI)",
+  "@constantEquivalentIntensity": {
+    "description": "Constant Equivalent Intensity (CEI)"
+  },
+  "saveToBoard": "Save to Board",
+  "@saveToBoard": {
+    "description": "Save to Board"
+  },
+  "lightPanel": "Light Panel",
+  "@lightPanel": {
+    "description": "Label for the light panel"
+  }
+}

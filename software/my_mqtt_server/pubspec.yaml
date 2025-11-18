@@ -1,0 +1,18 @@
+name: my_mqtt_server
+description: A sample command-line application.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.1.0
+
+# Add regular dependencies here.
+dependencies:
+  mqtt_client: ^10.0.0
+  # path: ^1.8.0
+  my_api:
+   #path: C:\\Users\\Marlus Dias Silva\\Documents\\Doutorado\\Dev\\my_api
+   path: ../my_api
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.21.0

@@ -1,0 +1,180 @@
+{
+  "@@locale": "pt",
+  "@@last_modified": "2024-07-01T12:00:00Z",
+  "title": "Olá Mundo",
+  "@title": {
+    "description": "Título da aplicação"
+  },
+  "message": "Bem-vindo à Internacionalização do Flutter",
+  "@message": {
+    "description": "Mensagem para a página inicial"
+  },
+  "environmentLeav": "Ambientes LEAV",
+  "@environmentLeav": {
+    "description": "Descrição do ambiente LEAV"
+  },
+  "monitor": "Monitorar",
+  "@monitor": {
+    "description": "Para monitorar variáveis ambientais"
+  },
+  "charts": "Gráficos",
+  "@charts": {
+    "description": "Gráficos"
+  },
+  "program": "Programar",
+  "@program": {
+    "description": "Para programar ambientes"
+  },
+  "ppfdBlue": "Intensidade Azul [PPFD]",
+  "@ppfdBlue": {
+    "description": "Intensidade de cor azul por µmol/m²/s"
+  },
+  "ppfdWhite": "Intensidade Branca [PPFD]",
+  "@ppfdWhite": {
+    "description": "Intensidade de cor branca por µmol/m²/s"
+  },
+  "ppfdRBW": "Intensidade RBW [PPFD]",
+  "@ppfdRBW": {
+    "description": "Intensidade de cor RBW por µmol/m²/s"
+  },
+  "ppfdRed": "Intensidade Vermelho [PPFD]",
+  "@ppfdRed": {
+    "description": "Intensidade de cor vermelha por µmol/m²/s"
+  },
+  "dimBlue": "Dimerização Azul [%]",
+  "@dimBlue": {
+    "description": "Dimerização do LED na cor azul em porcentagem"
+  },
+  "dimWhite": "Dimerização Branca [%]",
+  "@dimWhite": {
+    "description": "Dimerização do LED na cor branca em porcentagem"
+  },
+  "dimRBW": "Dimerização RBW [%]",
+  "@dimRBW": {
+    "description": "Dimerização do LED na cor RBW em porcentagem"
+  },
+  "dimRed": "Dimerização Vermelha [%]",
+  "@dimRed": {
+    "description": "Dimerização do LED na cor vermelha em porcentagem"
+  },
+  "temperature": "Temperatura",
+  "@temperature": {
+    "description": "Temperatura do ambiente, leitura feita pelo sensor DHT 22"
+  },
+  "humidity": "Umidade",
+  "@humidity": {
+    "description": "Umidade do ambiente, leitura feita pelo sensor DHT 22"
+  },
+  "ppmCo2": "PPM CO2",
+  "@ppmCo2": {
+    "description": "Maneira de medir a proporção de moléculas de dióxido de carbono em relação a todas as outras moléculas no ambiente"
+  },
+  "kWh": "Energia (kWh)",
+  "@kWh": {
+    "description": "Energia medida em kWh no ambiente protegido"
+  },
+  "watts": "Potência (W)",
+  "@watts": {
+    "description": "Potência em Watts, utilizado no sistema"
+  },
+  "wifi": "Wifi",
+  "@wifi": {
+    "description": "Indicador de força do sinal recebido"
+  },
+  "factorPower": "Fator de potência",
+  "@factorPower": {
+    "description": "Fator de potências das luminárias LED"
+  },
+  "waitSensor": "Sensor não enviou informação... Aguardando",
+  "@waitSensor": {
+    "description": "Sensor não enviou informação... Aguardando"
+  },
+  "dateTimeSearchInit": "Data e hora inicial",
+  "@dateTimeSearchInit": {
+    "description": "Data e hora inicial"
+  },
+  "dateTimeSearchEnd": "Data e hora final",
+  "@dateTimeSearchEnd": {
+    "description": "Data e hora final"
+  },
+  "selected": "Selecione",
+  "@selected": {
+    "description": "Selecione"
+  },
+  "synchronized": "Sincronizado",
+  "@synchronized": {
+    "description": "Sincronizado"
+  },
+  "synchronizing": "Sincronizando",
+  "@synchronizing": {
+    "description": "Sincronizando"
+  },
+  "off": "Desligado",
+  "@off": {
+    "description": "Desligado"
+  },
+  "on": "Ligado",
+  "@on": {
+    "description": "Ligado"
+  },
+  "automatic": "Automático",
+  "@automatic": {
+    "description": "Automático"
+  },
+  "resetKwh": "Resetar o kWh",
+  "@resetKwh": {
+    "description": "Resetar o kWh"
+  },
+  "programEnvironment": "Programar Ambiente",
+  "@programEnvironment": {
+    "description": "Programar Ambiente"
+  },
+  "gaussian": "Gaussiana",
+  "@gaussian": {
+    "description": "Gaussiana"
+  },
+  "constant": "Constante",
+  "@constant": {
+    "description": "Constante"
+  },
+  "mean": "Média (μ)",
+  "@mean": {
+    "description": "Média (μ)"
+  },
+  "sigma": "Sigma",
+  "@sigma": {
+    "description": "Sigma"
+  },
+  "maxIntensity": "Intensidade Máxima",
+  "@maxIntensity": {
+    "description": "Intensidade Máxima"
+  },
+  "minIntensity": "Intensidade Mínima",
+  "@minIntensity": {
+    "description": "Intensidade Mínima"
+  },
+  "start": "Início",
+  "@start": {
+    "description": "Início"
+  },
+  "end": "Término",
+  "@end": {
+    "description": "Término"
+  },
+  "dailyLightIntegral": "Integral de Luz Diária (DLI)",
+  "@dailyLightIntegral": {
+    "description": "Integral de Luz Diária (DLI)"
+  },
+  "constantEquivalentIntensity": "Intensidade Constante Equivalente (ICE)",
+  "@constantEquivalentIntensity": {
+    "description": "Intensidade Constante Equivalente (ICE)"
+  },
+  "saveToBoard": "Salvar na Placa",
+  "@saveToBoard": {
+    "description": "Salvar na Placa"
+  },
+  "lightPanel": "Painel de Luzes",
+  "@lightPanel": {
+    "description": "Painel de luzes"
+  }
+}

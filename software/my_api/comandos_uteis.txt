@@ -1,0 +1,28 @@
+mosquitto_pub -h localhost -t  sc5/humidity -u guest -P guest -m '{"value": 25.3, "timestamp": "2023-09-30T10:00:00", "deviceId": "6500b453521b797152523224"}'
+
+
+
+
+
+
+mosquitto_pub -h localhost -t sc5/power_factor -u guest -P guest -m '{
+  "value": 0.85,  
+  "mqttTopic": "sc5/power_factor", "unit" : "C"
+}'
+
+mosquitto_pub -h localhost -t sc5/dim2 -u guest -P guest -m '{
+  "value":55,  
+  "mqttTopic": "sc5/dim2", "unit" : "C"
+}'
+
+
+db.createUser({
+  user: "nome_do_usuario",
+  pwd: "senha_forte",
+  roles: [{ role: "readWrite", db: "leav" }]
+})
+
+
+db.getUsers()
+
+mongo --username nome_do_usuario --password senha_forte --authenticationDatabase leav

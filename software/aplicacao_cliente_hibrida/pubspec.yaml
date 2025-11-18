@@ -1,0 +1,56 @@
+name: aplicacao_cliente_hibrida
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  my_api:
+    path: ../my_api
+  mobx: ^2.2.1
+  flutter_mobx: ^2.2.0
+  build_runner: ^2.4.6
+  get_it: ^7.6.4
+  mobx_codegen: ^2.4.0
+  flutter_svg: ^2.0.9
+  google_fonts: ^6.1.0
+  dio: ^5.3.3
+  intl: ^0.20.2
+  flutter_localizations:
+    sdk: flutter
+  go_router: ^12.1.1
+  mqtt_client: ^10.0.0
+  fl_chart: ^0.66.2
+  responsive_grid_list: ^1.4.0
+  timezone: ^0.9.2
+  path_provider: ^2.1.2
+  share_plus: ^7.2.2
+  pdf: ^3.10.8
+  file_selector: ^1.0.3
+  flutter_launcher_icons: ^0.13.1
+  intl_utils: ^2.8.7
+
+flutter_icons:
+  android: true
+  ios: false
+  image_path_android: "assets/icons/logo.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/icons/logo.png"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true  # <-- AQUI! DENTRO DO BLOCO FLUTTER
+  assets:
+    - assets/images/
+    - assets/image/
+    - assets/icons/
